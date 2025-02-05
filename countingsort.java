@@ -5,7 +5,6 @@ public class countingsort {
         for(int i = 0;i<arr.length;i++){
             largest = Math.max(largest,arr[i]);
         }
-
         int count[] = new int[largest+1];
         for(int i=0;i<arr.length;i++){
             count[arr[i]]++;
@@ -31,7 +30,7 @@ public class countingsort {
 
     public static void main(String[] args) {
         
-        int arr[] = {8,3,5,1,3,8,6,4,3};
+        int arr[] = {8,3,5,1,3,8,6,4,3,7};
         CS(arr);
         print(arr);
     }
